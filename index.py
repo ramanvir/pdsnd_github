@@ -59,7 +59,7 @@ def load_data(city, month, day):
     most_popular_day = day_of_week[df['day_of_week'].mode()[0]].title()
     most_popular_hour = df['Start Hour'].mode()[0]
 
-    txt = "A total of {} trips were taken. Avg. trip duration was {} and total trip duration was {}. \nPopular month - {}, Popular day - {}, Popular hour - {}. \nMost popular starting station was {} and most popular destination was {}."
+    txt = "A total of {} trips were taken. Average trip duration was {} and total trip duration was {}. \nPopular month - {}, Popular day - {}, Popular hour - {}. \nMost popular starting station was {} and most popular destination was {}."
 
     print(txt.format(trip_count, avg_trip_duration, total_trip_duration, most_popular_month, most_popular_day, most_popular_hour, most_popular_station, most_popular_destination))
     print("Most popular trip was - {}.\n".format(most_popular_trip))
