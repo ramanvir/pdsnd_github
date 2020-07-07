@@ -84,7 +84,7 @@ def load_data(city, month, day):
 
         print('\n')
 
-        print('Birth year youngest user - {}. Birth year of oldest user - {}. Most common birth year among users - {}.'.format(min_birth_year, max_birth_year, common_birth_year))
+        print('Birth year youngest user - {}. Birth year of oldest user - {}. Most common birth year among the users - {}.'.format(min_birth_year, max_birth_year, common_birth_year))
 
         print('\n')
 
