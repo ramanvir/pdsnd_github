@@ -134,7 +134,7 @@ while x == 'yes':
 
     while True:
         try:
-            view_rows = input('Enter \'yes\' if you want to view detailed report ')
+            view_rows = input('Enter \'yes\' if you want to view detailed report - ')
             print('\n')
             break
         except:
