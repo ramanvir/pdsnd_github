@@ -94,6 +94,8 @@ x = 'yes'
 
 while x == 'yes':
 
+    #Welcome message
+
     next = 'next'
     row_counter = 0
     print('\n')
@@ -105,6 +107,8 @@ while x == 'yes':
     for city_name, val in city_data.items():
         print(city_name)
         print('\n')
+
+    #Take user inputs
 
     tester = 1
     while tester == 1:
